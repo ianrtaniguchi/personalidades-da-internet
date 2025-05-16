@@ -6,15 +6,24 @@
   <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-  <h1>Pessoas que mudaram a internet</h1>
+  <div class="container">
+    <header>
+      <h1>Pessoas que mudaram a internet</h1>
+      <p class="subtitulo">Um tributo aos visionários do mundo digital</p>
+    </header>
 
-  <div class="perfil">
-    <h2>Bill Gates</h2>
-    <p>Cofundador da Microsoft. Democratizou o acesso aos computadores.</p>
-    <button onclick="mostrar()">Ver mais</button>
-    <div id="oculto" style="display:none;">
-      <p>Ele começou a programar com 13 anos e fundou a Microsoft em 1975.</p>
-    </div>
+    <section class="perfil">
+      <h2>Bill Gates</h2>
+      <p class="descricao">Cofundador da Microsoft. Democratizou o acesso aos computadores.</p>
+      <button onclick="mostrar()" class="botao">Ver mais</button>
+      <div id="oculto" class="oculto">
+        <p>Ele começou a programar com 13 anos e fundou a Microsoft em 1975.</p>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2025 Nai – Todos os direitos reservados.</p>
+    </footer>
   </div>
 
   <script src="script.js"></script>

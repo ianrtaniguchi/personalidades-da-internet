@@ -1,3 +1,4 @@
 function mostrar() {
-  document.getElementById("oculto").style.display = "block";
+  const div = document.getElementById("oculto");
+  div.style.display = "block";
 }
